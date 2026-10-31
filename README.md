@@ -2,7 +2,7 @@
 
 The public product website for Hearth, a homeowner app in development.
 
-**Website:** https://joshginz.github.io/Hearth-Website/
+**Website:** https://hearthhomehealth.com/
 
 ## Publish
 
@@ -23,6 +23,8 @@ This website announces a product in development. Final app privacy/terms, operat
 
 ## Custom domain
 
-The initial site uses the GitHub Pages address above. A custom domain is not configured. Before connecting one, confirm ownership, save the existing DNS records, and preserve mail records. Then update canonical URLs, the sitemap, robots.txt, and the 404 page's base URL to match.
+The website targets `hearthhomehealth.com`, the domain registered through Squarespace Domains. `docs/CNAME` declares that domain for GitHub Pages. Canonical URLs, the sitemap, robots.txt, and the 404 page's base URL use `https://hearthhomehealth.com/`.
+
+The domain connection requires GitHub Pages settings, Squarespace DNS records, and an issued HTTPS certificate. These source changes do not establish that DNS propagation or HTTPS verification has completed. Preserve existing mail and authentication records when updating website DNS.
 
 GitHub's [Pages publishing documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) describes the branch and folder settings.
